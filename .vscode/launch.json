@@ -7,6 +7,14 @@
         {
             "type": "lldb",
             "request": "launch",
+            "name": "Debug bb",
+            "program": "${workspaceFolder}/target/debug/rust-azure-ai-demos",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
             "name": "Debug executable 'rust-azure-ai-demos'",
             "cargo": {
                 "args": [
